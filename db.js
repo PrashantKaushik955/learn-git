@@ -9,7 +9,8 @@ const connectDB = async () => {
         console.error(err.message);
         console.log("database not connected");
     }
-    1235
+
+    1234
 };
 
 module.exports = connectDB;
