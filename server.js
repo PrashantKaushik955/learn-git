@@ -5,9 +5,9 @@ const postRoutes = require('./routes/postRoutes');
 
 require('dotenv').config();
 
-connectDB();
+// connectDB();
 
-const app = express();
+// const app = express();
 
 app.use('/api/posts',postRoutes);
 
