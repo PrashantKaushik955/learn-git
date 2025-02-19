@@ -8,6 +8,8 @@ const connectDB = async () => {
     } catch (err) {
         console.error(err.message);
     }
+
+    1234
 };
 
 module.exports = connectDB;
